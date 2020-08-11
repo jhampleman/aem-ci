@@ -1,0 +1,6 @@
+e2e tests:
+    tags:
+        - aem
+    script:
+        - selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" /Users/jhampleman/selenium/test_proj.side
+ 
