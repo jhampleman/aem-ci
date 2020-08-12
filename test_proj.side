@@ -21,6 +21,16 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "ca704df5-76c1-4f9b-88c6-f94a4aa68891",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.cmp-button",
+      "targets": [
+        ["css=.cmp-button", "css:finder"],
+        ["xpath=//div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "76bb1712-4442-42db-9d23-9565c471accb",
       "comment": "",
       "command": "click",
