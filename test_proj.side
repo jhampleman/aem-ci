@@ -21,13 +21,24 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "88da334d-d6a5-45f4-a3c8-a049a9ee8f49",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.cmp-title__text",
+      "targets": [
+        ["css=.cmp-title__text", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "76bb1712-4442-42db-9d23-9565c471accb",
       "comment": "",
       "command": "click",
-      "target": "css=.mdc-button__label2",
+      "target": "css=.mdc-button__label",
       "targets": [
-        ["css=.mdc-button__label2", "css:finder"],
-        ["xpath=//button[@id='btnModalForm2']/span", "xpath:idRelative"],
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//button[@id='btnModalForm']/span", "xpath:idRelative"],
         ["xpath=//button/span", "xpath:position"]
       ],
       "value": ""
