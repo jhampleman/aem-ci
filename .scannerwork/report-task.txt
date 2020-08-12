@@ -2,5 +2,5 @@ projectKey=aem
 serverUrl=http://localhost:9000
 serverVersion=8.4.1.35646
 dashboardUrl=http://localhost:9000/dashboard?id=aem
-ceTaskId=AXPkjPqW4Vl9UVSc3kKq
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXPkjPqW4Vl9UVSc3kKq
+ceTaskId=AXPkkYvR4Vl9UVSc3kKr
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXPkkYvR4Vl9UVSc3kKr
