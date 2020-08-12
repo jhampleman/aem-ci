@@ -27,7 +27,7 @@
       "target": "css=.mdc-button__label2",
       "targets": [
         ["css=.mdc-button__label2", "css:finder"],
-        ["xpath=//button[@id='btnModalForm']/span", "xpath:idRelative"],
+        ["xpath=//button[@id='btnModalForm2']/span", "xpath:idRelative"],
         ["xpath=//button/span", "xpath:position"]
       ],
       "value": ""
