@@ -1,0 +1,57 @@
+{
+  "id": "c88adf06-4a11-4fc2-8717-368ae4a65788",
+  "version": "2.0",
+  "name": "test_proj",
+  "url": "https://preview.viasat.com/about-us/",
+  "tests": [{
+    "id": "2f33d2bd-0906-497e-9c32-8d2071c1ce55",
+    "name": "My first test",
+    "commands": [{
+      "id": "b478409e-e672-460c-b451-7ff3fd0c65a5",
+      "comment": "",
+      "command": "open",
+      "target": "https://preview.viasat.com/about-us/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06712493-a464-4f29-91ab-3d0b8177fd36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1177",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76bb1712-4442-42db-9d23-9565c471accb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//button[@id='btnModalForm']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c05f79-a5f4-447c-bdd9-da37c961ea3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#closeModalForms > .material-icons:nth-child(2)",
+      "targets": [
+        ["css=#closeModalForms > .material-icons:nth-child(2)", "css:finder"],
+        ["xpath=//button[@id='closeModalForms']/i[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/header/button/i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6cf7a383-3ead-413f-83c8-cd2f81904610",
+    "name": "Click Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2f33d2bd-0906-497e-9c32-8d2071c1ce55"]
+  }],
+  "urls": ["https://preview.viasat.com/about-us/"],
+  "plugins": []
+}
