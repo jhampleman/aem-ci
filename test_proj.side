@@ -24,7 +24,7 @@
       "id": "76bb1712-4442-42db-9d23-9565c471accb",
       "comment": "",
       "command": "click",
-      "target": "css=.mdc-button__label",
+      "target": "css=.mdc-button__label2",
       "targets": [
         ["css=.mdc-button__label", "css:finder"],
         ["xpath=//button[@id='btnModalForm']/span", "xpath:idRelative"],
