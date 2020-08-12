@@ -50,3 +50,5 @@ var UiFramework = (function() {
       div: div
     }
   })();
+
+  runmefail();
