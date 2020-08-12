@@ -1,5 +1,11 @@
 e2e tests:
     tags:
-        - ci
+        - aem
     script:
         - selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" /Users/jhampleman/aem-ci/test_proj.side
+sonarqube:
+    tags:
+        - aem
+    script:
+        - cd ~/Users/jhampleman/aem-ci
+        - ~/Downloads/sonar-scanner-4.4.0.2170-macosx/bin/sonar-scanner -Dsonar.projectKey=aem -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=482c3d360e6be7c36ce954587dc9b0517da971f6
