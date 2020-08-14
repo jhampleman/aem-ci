@@ -28,6 +28,6 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: e2e tests
-      run: selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" /Users/jhampleman/aem-ci/test_proj.side
+      run: echo "::selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" /Users/jhampleman/aem-ci/test_proj.side"
           
    
